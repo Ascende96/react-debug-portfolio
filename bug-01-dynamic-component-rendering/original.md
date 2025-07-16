@@ -11,5 +11,3 @@ They also tried using `useEffect` logic **inside that `.map()` loop**, which cau
 ### 🚨 Core Issue
 React hooks like `useEffect` **must not be used inside loops, conditions, or nested functions**.  
 The dynamic map structure caused **state/logic breakdown**, especially during updates or re-renders.
-
----
